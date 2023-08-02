@@ -12,8 +12,8 @@ const Scoreboard =() => {
   };
 
   return (
-    <div>
-        <h2>Score: {score}</h2>
+    <div className='scoreboard'>
+        <h3>Score: {score}</h3>
         <button onClick={handleAddPoints}>Add</button>
         <button onClick={handleMinusPoints}>Minus</button>
     </div>

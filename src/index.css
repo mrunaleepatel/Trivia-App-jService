@@ -11,3 +11,153 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://t3.ftcdn.net/jpg/02/39/37/74/360_F_239377497_525D25jVLSq4jFue1gkU9fs1tmuOjKpe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-box {
+  width: 700px; /* Set a fixed width for the box */
+  height: 700px; /* Set a fixed height for the box */
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+}
+
+h2 {
+  font-size: 28px;
+  color: lightgreen;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  color: lightgreen;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 17px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: lightgoldenrodyellow;
+  color: brown;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: brown;
+  color: lightgoldenrodyellow;
+}
+
+.question-text {
+  font-size: 20px;
+  color: #333;
+}
+
+.category {
+  font-size: 16px;
+  color: #616161;
+  margin-top: 10px;
+}
+
+.points {
+  font-size: 20px;
+  color: #f57c00;
+  margin-top: 20px;
+}
+
+.answer-container {
+  margin-top: 20px;
+}
+
+.answer-text {
+  font-size: 18px;
+  color: #e65100;
+  display: none;
+}
+
+.show-answer-button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  font-size: 16px;
+}
+
+.show-answer-button:hover {
+  background-color: #45a049;
+}
+
+.scoreboard-container {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.score-text {
+  font-size: 24px;
+  color: #1b5e20;
+}
+
+.score-buttons {
+  margin-top: 20px;
+}
+
+.score-button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #b71c1c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.score-button:hover {
+  background-color: #c62828;
+}
+
